@@ -1,0 +1,7 @@
+{
+    "extensions": [
+        "ms-vscode.cmake-tools",
+        "ms-vscode.cpptools"
+    ],
+    "postCreateCommand": "apt-get update && apt-get -y install git ninja-build python3-pip bzr lib32z1 lib32ncurses5 && pip3 install meson"
+}
